@@ -24,10 +24,10 @@ Check out the live version of my portfolio: [Live Demo](https://hamza-portfolio-
 
 ## 📸 Screenshots
 
-![Homepage](./screenshots/homepage.png)
-![Porjects](./screenshots/projects.png)
-![Skills](./screenshots/skills.png)
-![Contact](./screenshots/contact.png)
+![Homepage](screenshots/homepage.png)
+![Porjects](screenshots/projects.png)
+![Skills](screenshots/skills.png)
+![Contact](screenshots/contact.png)
 
 ## 🖥️ Getting Started
 
