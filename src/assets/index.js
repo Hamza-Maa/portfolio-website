@@ -50,6 +50,8 @@ import playIcon from './projects/play-button.png';
 import closeIcon from './projects/close.png';
 import arrowRight from './projects/right.png';
 import arrowLeft from './projects/left.png';
+import luxpod from './projects/luxpod_thumb.png';
+import savoria from './projects/savoria_thumb.png';
 // kyc
 import deepafke from './projects/kyc/DeepFake.png';
 import falsified from './projects/kyc/falsified document.png';
@@ -164,4 +166,6 @@ export {
   webdash,
   weborder,
   webcart,
+  luxpod,
+  savoria,
 };

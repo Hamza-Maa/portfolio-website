@@ -78,12 +78,16 @@ const ProjectCard = ({
         <div className="mt-2 flex flex-wrap gap-1"></div>
 
         <div className="mt-3 flex justify-center items-center">
-          <button
-            className="shadow-md shadow-primary p-2 bg-tertiary rounded-lg flex justify-center"
-            onClick={() => onOpenDemo(demoImages)} // Pass the demo images to open modal
-          >
-            See the Demo
-          </button>
+        <button
+  className="shadow-md shadow-primary p-2 bg-tertiary rounded-lg flex justify-center"
+  onClick={() =>
+    demo_link
+      ? window.open(demo_link, "_blank")
+      : onOpenDemo(demoImages)
+  }
+>
+  See the Demo
+</button>
         </div>
       </motion.div>
     </Tilt>
