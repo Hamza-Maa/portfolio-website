@@ -51,7 +51,18 @@ import closeIcon from './projects/close.png';
 import arrowRight from './projects/right.png';
 import arrowLeft from './projects/left.png';
 import luxpod from './projects/luxpod_thumb.png';
-import savoria from './projects/savoria_thumb.png';
+import horizalpro from './projects/horizalpro_thumb.png';
+
+//horizalpro
+import auth_horizalpro from './projects/horizalpro/Authentication.png';
+import homepage_horizalpro from './projects/horizalpro/homepage.png';
+import services_horizalpro from './projects/horizalpro/services.png';
+
+//luxpod
+import auth_luxpod from './projects/luxpod/Authentication.png';
+import homepage_luxpod from './projects/luxpod/Homepage.png';
+import services_luxpod from './projects/luxpod/Services.png';
+import media_luxpod from './projects/luxpod/create_join_meet.png';
 // kyc
 import deepafke from './projects/kyc/DeepFake.png';
 import falsified from './projects/kyc/falsified document.png';
@@ -167,5 +178,13 @@ export {
   weborder,
   webcart,
   luxpod,
-  savoria,
+  horizalpro,
+  auth_horizalpro,
+  homepage_horizalpro,
+  services_horizalpro,
+  auth_luxpod,
+  homepage_luxpod,
+  services_luxpod,
+  media_luxpod,
+
 };
