@@ -52,6 +52,7 @@ import arrowRight from './projects/right.png';
 import arrowLeft from './projects/left.png';
 import luxpod from './projects/luxpod_thumb.png';
 import horizalpro from './projects/horizalpro_thumb.png';
+import bcallio from './projects/bcallio_thumb.png';
 
 //horizalpro
 import auth_horizalpro from './projects/horizalpro/Authentication.png';
@@ -186,5 +187,5 @@ export {
   homepage_luxpod,
   services_luxpod,
   media_luxpod,
-
+  bcallio,
 };

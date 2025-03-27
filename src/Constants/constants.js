@@ -95,6 +95,7 @@ import {
   homepage_luxpod,
   services_luxpod,
   media_luxpod,
+  bcallio
 } from '../assets';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -168,14 +169,25 @@ export const navLinks = [
 
 const projects = [
   {
+    name: "B-callio",
+    description: 'Experience the future of messaging with our cutting-edge app! Designed for seamless communication, our app offers a sleek, modern interface paired with advanced security measures to keep your conversations private and protected. Whether you re chatting with friends, collaborating with colleagues, or sharing moments with loved ones, enjoy end-to-end encryption, smart notifications, and a beautifully intuitive design that makes staying connected effortless and secure.',
+    image: bcallio,
+    // gif: "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJtY2Mxc3NpcDRxaXRicnFoeDAweXRrcDFjZTcwanE5bTYxbHpoMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QTfVi01W3PJvmOXwMs/giphy.gif",
+    demo_link: 'https://play.google.com/store/apps/details?id=com.elite.bcalio',
+    source_code_link: 'https://github.com/Hamza-Maa',
+    playGifOnHover: false, // This project will play the GIF on hover
+    //demoImages: [auth_horizalpro, homepage_horizalpro, services_horizalpro,],
+
+  },
+  {
     name: "HorizalPro",
     description: 'Unlock a smarter, more engaging way to enjoy books with our all-in-one app! Whether you’re a book lover, student, or just someone who enjoys reading, our app is designed to make your reading experience easier, more interactive, and tailored to your preferences.',
     image: horizalpro,
     // gif: "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJtY2Mxc3NpcDRxaXRicnFoeDAweXRrcDFjZTcwanE5bTYxbHpoMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QTfVi01W3PJvmOXwMs/giphy.gif",
-    //demo_link: 'https://play.google.com/store/apps/details?id=com.elite.savoria',
+    demo_link: 'https://play.google.com/store/apps/details?id=com.elite.horizalpro',
     source_code_link: 'https://github.com/Hamza-Maa',
     playGifOnHover: false, // This project will play the GIF on hover
-    demoImages: [auth_horizalpro, homepage_horizalpro, services_horizalpro,],
+    //demoImages: [auth_horizalpro, homepage_horizalpro, services_horizalpro,],
 
   },
   {
@@ -183,10 +195,10 @@ const projects = [
     description: 'Luxpod the ultimate platform for creating, hosting, and streaming captivating podcast episodes. Whether you are a seasoned podcaster or just starting out, Luxurious Podcast offers everything you need to produce and share professional-quality content.',
     image: luxpod,
     // gif: "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJtY2Mxc3NpcDRxaXRicnFoeDAweXRrcDFjZTcwanE5bTYxbHpoMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QTfVi01W3PJvmOXwMs/giphy.gif",
-   // demo_link: 'https://play.google.com/store/apps/details?id=com.elite.luxpod',
+   demo_link: 'https://play.google.com/store/apps/details?id=com.elite.luxpod',
     source_code_link: 'https://github.com/Hamza-Maa',
     playGifOnHover: false, // This project will play the GIF on hover
-    demoImages: [auth_luxpod,homepage_luxpod,services_luxpod,media_luxpod],
+   // demoImages: [auth_luxpod,homepage_luxpod,services_luxpod,media_luxpod],
 
   },
   {
